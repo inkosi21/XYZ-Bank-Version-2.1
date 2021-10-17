@@ -42,23 +42,9 @@ Account::Account(){
 				cout << "\n\t\t\t";
 				system("pause");
 			}
-	}while(balance < 1000);
-}
-
-/*Account::Account(double x):balance(x){	
-	if (balance < 1000) {
-		cout << "\n\n\t\t\tInvalid amount entered. Account opened with a minimum deposit of $1000.00\n\n\t\t\t";
-	}else{
-		cout << "\n\t\t\tAccount successfully created.\n\t\t\tOpened with ending balance $";
+		}while(balance < 1000);
 	}
-}*/
 
-void Account::setBalance(double x){
-		//Setter function to set initial balance
-		//Function accepts one argument and pass it to the balance atribute
-		balance = x;
-	}
-		
 	double Account::getBalance(){
 		//Getter function that will be invoked everytime the balance enquiry function is called
 		//or when the account balance is otherwise updated
