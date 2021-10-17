@@ -1,7 +1,7 @@
 /*
 Group 1 Members
 Sanjae Facey - 1400137119
-Jonathan Beckford - ID# 2017002548
+Jonathan Beckford - 2017002548
 Maxine Smith - 1300120136
 Brian Davis - 2017001804
 */
@@ -19,8 +19,7 @@ int main(int argc, char** argv) {
 	Account a1;
 		do{
 		system("cls");
-		a1.header();
-		//cout << "\n\n\t\t\t\t1. Open Account";		
+		a1.header();		
 		cout << "\n\n\t\t\t\t1. Deposit";
 		cout << "\n\n\t\t\t\t2. Withdraw";
 		cout << "\n\n\t\t\t\t3. Balance Enquiry";
@@ -30,31 +29,6 @@ int main(int argc, char** argv) {
 		cin >> option;
 		
 			switch(option){
-				/*case 1:{
-					a1.header();
-					
-					cout << "\n\n\t\t\tThe minimum deposit required to open an account is $1000.00...\n\n\t\t\t";
-					cout << "\n\t\t\tEnter initial amount to open New Account...\n\n\t\t\t";
-					cout << "Starting Deposit : $";
-					cin >> bal;
-					
-					//a1.setBalance(bal);
-					
-					
-					if (bal >= 1000) {
-						a1.setBalance(bal);
-						a1.header();
-						cout << "\n\t\t\tAccount successfully created.\n\t\t\tOpened with ending balance $";
-						cout << fixed << setprecision(2) << a1.getBalance();
-						cout << "\n\n\t\t\t";
-					}
-					else {
-						a1.header();
-						cout << "\n\n\t\t\tInvalid amount entered. Account opened with a minimum deposit of $1000.00\n\n\t\t\t";
-					}					
-					break;
-				}*/
-				
 				case 1:{
 					a1.header();
 					cout << "\n\n\t\t\t\t\t||====>> $";
@@ -120,4 +94,3 @@ int main(int argc, char** argv) {
 	
 	return 0;
 }
-
